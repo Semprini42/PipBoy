@@ -45,7 +45,7 @@
                 }));
             d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n))
         })({
-            key: "<API_KEY>",
+            key: "AIzaSyAp_w-xx8mZuNuJi6EYcTMxQbV_rgxicxM",
             v: "weekly",
             // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
             // Add other bootstrap parameters as needed, using camel case.
@@ -55,10 +55,10 @@
 </head>
 
 <body>
-    <div class="note">
+    <!-- <div class="note">
         Please note: this app is designed for bigger screens!<br>
         Works best on screen 800x480
-    </div>
+    </div> -->
 
     <div class="main">
         <video poster="/images/standby.jpg" autoplay muted id="video">
@@ -209,11 +209,6 @@
             </div>
         </div>
     </div>
-
-    <footer>
-        Copyright &copy; <?= date('Y'); ?>. FEDIRKO.PRO and Bethesda Game Studios
-        <a target="_blank" class="footer_author" href="//fedirko.pro" title="created by FEDIRKO.PRO"></a>
-    </footer>
     <script src="js/main.min.js"></script>
 </body>
 
