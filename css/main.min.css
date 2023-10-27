@@ -12,6 +12,8 @@ body {
   margin: 0;
   width: 100%;
   height: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 h1 {
   font-size: 2em;
